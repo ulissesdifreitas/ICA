@@ -37,16 +37,27 @@ def genetic_algorithm(items, max_weight, population_size, generations):
                 mutation(population[i+1])
     return max(population, key=lambda individual: fitness(individual, items, max_weight))
 
+
+
 # Exemplo de uso
-items = [(10, 60), (20, 100), (30, 120)]  # (peso, valor)
+items = [(10, 60), (20, 100), (30, 120), (40, 100), (2, 50)]  # (peso, valor)
 max_weight = 50
 population_size = 100
 generations = 500
+
 
 best_individual = genetic_algorithm(items, max_weight, population_size, generations)
 print("Melhor indivíduo: ", best_individual)
 print("Valor total: ", fitness(best_individual, items, max_weight))
 
 """
-Este código cria uma população de indivíduos, onde cada indivíduo é uma solução potencial para o problema (uma lista de 0s e 1s, onde 1 significa que o item correspondente é incluído na mochila). A função de fitness avalia o valor total dos itens na mochila, desde que o peso total não exceda o peso máximo. A seleção é feita com base na aptidão, o cruzamento é feito trocando partes dos indivíduos e a mutação é feita invertendo um bit aleatório. O algoritmo retorna o melhor indivíduo após um número fixo de gerações.
+Este código cria uma população de indivíduos, onde cada indivíduo é uma solução potencial para o problema 
+(uma lista de 0s e 1s, onde 1 significa que o item correspondente é incluído na mochila). 
+A função de fitness avalia o valor total dos itens na mochila, desde que o peso total não exceda o peso máximo. 
+A seleção é feita com base na aptidão, o cruzamento é feito trocando partes dos indivíduos e a mutação é feita invertendo um bit aleatório. 
+O algoritmo retorna o melhor indivíduo após um número fixo de gerações.
 """
+
+#PRINTS
+for indice,dados in enumerate(historico_de_fitness):
+   print ("Geracao: ", indice," | Media de valor na mochila: ", dados)
