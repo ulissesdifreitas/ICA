@@ -21,7 +21,7 @@ O problema consiste em montar a melhor cesta básica possível, com o maior núm
 ### Açúcar      R$5
 ### Farinha     R$5
 ### Biscoito    R$25
-### Chocolate   R$25
+### Chocolate   R$50
 
 
 # Regras
