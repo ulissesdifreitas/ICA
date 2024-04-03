@@ -27,9 +27,3 @@ O problema consiste em montar a melhor cesta básica possível, com o menor valo
 # Regras
 - A cesta básica precisa ter o maior número de itens, pelo menor preço total possível.
 - A cesta básica não pode ter itens repetidos.
-
-
-
-
-
-
