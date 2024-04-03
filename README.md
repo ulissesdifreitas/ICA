@@ -27,3 +27,4 @@ O problema consiste em montar a melhor cesta básica possível, com o maior núm
 # Regras
 - A cesta básica precisa ter o maior número de itens, e não poderá ultrapassar o valor total de R$ 150
 - A cesta básica não pode ter itens repetidos.
+
