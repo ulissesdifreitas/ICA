@@ -5,7 +5,7 @@ O problema consiste num exercício de algoritmo genético, com a finalidade de s
 
 Definição do problema:
 
-O problema consiste em montar a melhor cesta básica possível, com o menor valor possível estimado.
+O problema consiste em montar a melhor cesta básica possível, com o maior número de itens, sem ultrapassar o valor total de venda da cesta.
 
 ## A valor de venda da cesta básica será de R$150
 
@@ -25,5 +25,6 @@ O problema consiste em montar a melhor cesta básica possível, com o menor valo
 
 
 # Regras
-- A cesta básica precisa ter o maior número de itens, pelo menor preço total possível.
+- A cesta básica precisa ter o maior número de itens, e não poderá ultrapassar o valor total de R$ 150
 - A cesta básica não pode ter itens repetidos.
+
